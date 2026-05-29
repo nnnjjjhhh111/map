@@ -77,6 +77,21 @@
         .stat-card .number { font-size: 2rem; color: var(--pink-dark); font-weight: bold; }
         .stat-card .label { color: #888; font-size: 0.9rem; }
 
+        /* 统计卡片下方诗意文字 */
+        .poem-section {
+            text-align: center;
+            padding: 2rem 0;
+            margin: 1rem 0;
+        }
+        .poem-section p {
+            color: var(--pink-dark);
+            font-size: 1.2rem;
+            line-height: 2.2;
+            margin: 0;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+
         /* 内容区域 */
         .content-area {
             display: grid; grid-template-columns: 1fr 350px;
@@ -342,6 +357,14 @@
                 <div class="number" id="trip-count">0</div>
                 <div class="label">旅行次数</div>
             </div>
+        </div>
+
+        <!-- 诗意文字 -->
+        <div class="poem-section">
+            <p>这张地图不是一次性做完的，<br>
+它会跟着我们之后的每一次出发，一点一点长大。<br>
+等以后再打开，看到的不只是地图，<br>
+是我们一起走过的路。</p>
         </div>
 
         <!-- 地图视图 -->
